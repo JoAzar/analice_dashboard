@@ -1,0 +1,63 @@
+/* GAMA DE COLORES: AZUL #2563EB*/
+.dropSombraAzul{filter: drop-shadow(0 0 0.75rem #2563EB);}
+.dropSombraAzulHover:hover{filter: drop-shadow(0 0 0.75rem #2563EB);}
+
+/* GAMA DE COLORES: CYAN MODERNO #06B6D4*/
+.dropSombraCyan{filter: drop-shadow(0 0 0.75rem #06B6D4);}
+.dropSombraCyanHover:hover{filter: drop-shadow(0 0 0.75rem #06B6D4);}
+
+/* GAMA DE COLORES: NARANJA #FB923C*/ 
+.dropSombraNaranja{filter: drop-shadow(0 0 0.75rem #FB923C);}
+.dropSombraNaranjaHover:hover{filter: drop-shadow(0 0 0.75rem #FB923C);}
+
+/* GAMA DE COLORES: AMARILLO #FACC15*/
+.dropSombraAmarillo{filter: drop-shadow(0 0 0.75rem #FACC15);}
+.dropSombraAmarilloHover:hover{filter: drop-shadow(0 0 0.75rem #FACC15);}
+
+/* GAMA DE COLORES: BLANCA #EFFFFF*/
+.dropSombraBlanca{filter: drop-shadow(0 0 0.75rem #EFFFFF);}
+.dropSombraBlancaHover:hover{filter: drop-shadow(0 0 0.75rem #EFFFFF);}
+
+/* GAMA DE COLORES: PINK ROSA #EC4899*/
+.dropSombraRosa{filter: drop-shadow(0 0 0.75rem #EC4899);}
+.dropSombraRosaHover:hover{filter: drop-shadow(0 0 0.75rem #EC4899);}
+
+/* GAMA DE COLORES: MORADO #6D28D9*/
+.dropSombraMorada{filter: drop-shadow(0 0 0.75rem rgba(109, 40, 217, 0.75));}
+.sombraMorada{text-shadow: #6D28D9 1px 1px 1px;}
+
+/* GAMA DE COLORES: ROJO #EF4444*/
+.dropSombraRojo{filter: drop-shadow(0 0 0.75rem #EF4444);}
+.dropSombraRojoHover:hover{filter: drop-shadow(0 0 0.75rem #EF4444);}
+
+/* GAMA DE COLORES: Verde Success  #22c55e*/
+.dropSombraVerdeSucess{filter: drop-shadow(0 0 0.75rem #22c55e);}
+.dropSombraVerdeSucessHover:hover{filter: drop-shadow(0 0 0.75rem #22c55e);}
+
+/* GAMA DE COLORES: Verde SOFT #86EFAC*/
+.dropSombraVerdeSoft{filter: drop-shadow(0 0 0.75rem #86EFAC);}
+.dropSombraVerdeSoftHover:hover{filter: drop-shadow(0 0 0.75rem #86EFAC);}
+
+/* GAMA DE COLORES: Verde Oscuro #15803d*/
+.dropSombraVerdeOscuro{filter: drop-shadow(0 0 0.75rem #15803d);}
+.dropSombraVerdeOscuroHover:hover{filter: drop-shadow(0 0 0.75rem #15803d);}
+
+/* GAMA DE COLORES: Rojo suave #FCA5A5*/
+.dropSombraRojoSuave{filter: drop-shadow(0 0 0.75rem #FCA5A5);}
+.dropSombraRojoSuaveHover:hover{filter: drop-shadow(0 0 0.75rem #FCA5A5);}
+
+/* GAMA DE COLORES: Rojo oscuro #991B1B*/
+.dropSombraRojoOscuro{filter: drop-shadow(0 0 0.75rem #991B1B);}
+.dropSombraRojoOscuroHover:hover{filter: drop-shadow(0 0 0.75rem #991B1B);}
+
+/* GAMA DE COLORES: Gris Claro #E5E7EB*/
+.dropSombraGrisClaro{filter: drop-shadow(0 0 0.75rem #E5E7EB);}
+.dropSombraGrisClaroHover:hover{filter: drop-shadow(0 0 0.75rem #E5E7EB);}
+
+/* GAMA DE COLORES: Gris Oscuro #374151*/
+.dropSombraGrisOscuro{filter: drop-shadow(0 0 0.75rem #374151);}
+.dropSombraGrisOscuroHover:hover{filter: drop-shadow(0 0 0.75rem #374151);}
+
+/* GAMA DE COLORES: Negro #333333*/
+.dropSombraNegro{filter: drop-shadow(0 0 0.75rem #333333);}
+.dropSombraNegroHover:hover{filter: drop-shadow(0 0 0.75rem #333333);}

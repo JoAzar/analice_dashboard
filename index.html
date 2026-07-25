@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" id="app">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Dashboard 🇦🇷</title>
+		<link rel="stylesheet" href="/css/colores_de_letras.css">
+		<link rel="stylesheet" href="/css/colores_de_fondos.css">
+		<link rel="stylesheet" href="/css/colores_de_sombras.css">
+		<link rel="stylesheet" href="/css/imports.css">
+		<link rel="stylesheet" href="/css/fuentes.css">
+        <link rel="stylesheet" href="/css/media_screen_mayor_799.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/tabla.css">
+	</head>
+    <body class="fondoNegro">
+        <header class="fondoGrisOscuro dropSombraNegra horizontal padding2 centrarCaja2">
+		    <h1 class="textoRoboto sombraNegra letraBlanca margen2">Dashbard de seguridad</h1>
+	    </header>
+        <div class="flex wid10">
+            <aside class="textoLato vertical gap fondoNegro sidebar">
+                <button onclick="loadProcesses()" class="letraAzulHover letraBlanca fondoBlancoHover fondoNegro">Procesos</button>
+                <button onclick="loadLogs()" class="letraAzulHover letraBlanca fondoBlancoHover fondoNegro">Logs</button>
+                <button onclick="loadConnections()" class="letraAzulHover letraBlanca fondoBlancoHover fondoNegro">Connections</button>
+                <button onclick="loadIp()" class="letraAzulHover letraBlanca fondoBlancoHover fondoNegro">Ip</button>
+                <button onclick="loadDisk()" class="letraAzulHover letraBlanca fondoBlancoHover fondoNegro">Disk</button>
+                <button onclick="loadPorts()" class="letraAzulHover letraBlanca fondoBlancoHover fondoNegro">Ports</button>
+                <button onclick="loadSystem()" class="letraAzulHover letraBlanca fondoBlancoHover fondoNegro">System</button>
+                <button onclick="loadWho()" class="letraAzulHover letraBlanca fondoBlancoHover fondoNegro">Who</button>
+                <button onclick="loadclickJakingAnalizer()">Analizar Click Jacking</button>
+                <button onclick="loadLsof()">Ver LSOF</button>
+                <button onclick="loadPs()">Ver Procesos</button>
+                <button onclick="loadTulnp()">Ver Puertos</button>
+                <input id="url" placeholder="https://example.com">
+            </aside>
+            <main class="margen2 padding2">
+                <div id="output" class="fondoNegro letraBlanca textoLato contenedor-tabla"></div>
+            </main>
+            <div>
+                <!---
+                @construir.modulo.login{"titulo":"Ingresa tu cuenta","buttonText":"Entrar"}
+                @construir.modulo.carousel{"images":["1.png"]}
+                @construir.modulo.carousel{"images":["2.png"]}
+                -->
+            </div>
+        </div>
+        
+    </body>
+    <script src="/main.js" defer></script>
+    <script type="module" src="init_template_construction.js"></script>
+</html>

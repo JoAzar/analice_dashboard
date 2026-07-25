@@ -1,0 +1,21 @@
+.tabla { width: 100%; border-collapse: collapse; color: #EFFFFF; background: #0f172a; border-radius: 8px; overflow: hidden; font-size: 14px; border-spacing: 0; }
+
+.tabla th { background: #1e293b; color: #EFFFFF; padding: 12px 14px; text-align: left; font-weight: 600; letter-spacing: 0.5px; border-bottom: 1px solid #334155; }
+
+.tabla td { padding: 12px 14px; border-bottom: 1px solid #1f2937; color: #E5E7EB; }
+
+.fila { background: #0f172a; cursor: pointer; transition: background 0.2s ease, transform 0.1s ease; }
+
+.fila:nth-child(even) { background: #0b1220; }
+
+.fila:hover { background: #1e293b; }
+
+.fila:active { transform: scale(0.998); }
+
+.fila-success { background: rgba(34, 197, 94, 0.08); } 
+
+.fila-warning { background: rgba(250, 204, 21, 0.08); } 
+
+.fila-error { background: rgba(239, 68, 68, 0.08); } 
+
+.fila-info { background: rgba(37, 99, 235, 0.08); }

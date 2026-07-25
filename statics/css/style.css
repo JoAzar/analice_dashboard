@@ -1,0 +1,72 @@
+/*-------- COLORES Y DISEÑOS DE TODO EL PROYECTO ----------------*/
+
+* {padding: 0; margin: 0;}
+
+.sinBorde{border: none;}
+
+.blur {backdrop-filter: blur(10px);	-webkit-backdrop-filter: blur(10px);}
+.blurHover:hover {transition: backdrop-filter 0.3s ease; backdrop-filter: blur(10px);}
+
+.autoTextoCentrado {align-self: center;}
+
+.textoCentrado {text-align: center;}
+
+.subrayado {text-decoration: underline;}
+
+.sinDecoracion {text-decoration: none;}
+
+.bold {font-weight: bold;}
+
+.centrarItem {align-self: center;}
+
+.centrarDosItems {display: block ruby;}
+
+.centrarItemInicial {display: initial;}
+
+.centrarImagen {text-align: center;}
+
+.centrarItem2 {justify-self: center;}
+
+.flotar {position: absolute;}
+
+.flotarHover:hover {position: absolute;}
+
+.noFlotar {position: relative;}
+
+.noFlotarHover:hover {position: relative;}
+
+.ocultarSobrante {overflow: hidden;}
+.overflowAuto {overflow: auto;}
+
+.widFitContent {width: fit-content;}
+
+.manito {cursor: pointer;}
+
+.sinSeleccion {-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;}
+.conSeleccion {-moz-user-select: all;-webkit-user-select: all;-ms-user-select: all;user-select: all;}
+
+.letra_fina {font-weight: lighter;}
+.letra_gruesa {font-weight: bold;}
+
+.botonBlanco {color: rgb(30, 30, 30); background-color: rgb(249, 249, 249);}
+
+.botonNegroHover:hover {color: rgb(242, 242, 242);	background-color: rgb(35, 35, 35);	transition: all 600ms ease;}
+
+.flex {display: flex;}
+
+.cajasEnHorizontal {display: block ruby;}
+
+.centrarCaja {align-items: center;}
+
+.centrarCaja2 {display: flex; justify-content: center;}	
+
+.resizeNone {resize: none;}
+
+.vertical {display: flex; flex-direction: column;}
+
+.adaptarALaCaja {width: fit-content;}
+
+.espacioEntreEllos {justify-content: space-evenly;}
+.espaciadoEntreEllos {justify-content: space-between;}
+
+.sidebar { width: 200px; padding: 10px; }

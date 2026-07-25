@@ -1,0 +1,17 @@
+{
+    "modulo": [
+    {
+        "type": "login",
+        "props": {
+            "title": "Bienvenido",
+            "buttonText": "Entrar"
+        }
+    },
+    {
+        "type": "carousel",
+        "props": {
+            "images": ["1.png", "2.png"]
+        }
+    }
+  ]
+}
