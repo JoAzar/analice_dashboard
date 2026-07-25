@@ -12,6 +12,6 @@
   "dependencies": {
     "express": "^5.2.1",
     "puppeteer": "^24.40.0",
-    "systeminformation": "^5.31.5"
+    "systeminformation": "^5.31.7"
   }
 }
